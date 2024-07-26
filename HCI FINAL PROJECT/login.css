@@ -1,0 +1,78 @@
+body{
+    background-image: url(leaves.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.text{
+    margin-top: 10px;
+    color:skyblue;
+    font-size: 40px;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+.background-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 500px;
+    max-height: 290px; 
+}
+h1 {
+    margin-top: 30%;
+  margin-left: 20%;
+  font-size: 20px;
+  color: orange;
+  font-family: cursive;
+}
+.login form {
+    margin-left: 20px;
+    }
+    input {
+        font-size: 10px;
+        width: 300px;
+        height: 25px;
+        font-family: cursive;
+        border-style: groove;
+        border-color:black;
+    }
+.container4 {
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+}
+.form button
+{
+    margin-top: 5px;
+    margin-left: 50%;
+    border-radius: 10px;
+    border-color: none;
+    background-color: orange;
+    font-size: 15px;
+    width: 100px;
+    text-decoration: none;
+}
+.form button a 
+{
+    text-decoration: none;
+    color: white;
+}
+.second {
+    height: 560px;
+    width: 400px;
+    background-color: skyblue;
+}
+.hr{
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button
+{
+    margin-left: 50px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    width: 200px;
+}

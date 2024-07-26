@@ -1,0 +1,335 @@
+* {
+    padding: 0;
+    margin: 0;
+ }
+ 
+ @font-face {
+    font-family: aceh;
+    src: url(../fonts/aceh-1/Aceh-Medium.ttf);
+ }
+ 
+ @font-face {
+    font-family: andela;
+    src: url(../fonts/andala-font/Andala-DOdoW.ttf);
+ }
+ 
+ @font-face {
+    font-family: thisiswho;
+    src: url(../fonts/this-is-who-we-are-font/ThisIsWhoWeAre-2y0o.ttf);
+ }
+ 
+ @font-face {
+    font-family: caligraphy;
+    src: url(../fonts/stylish-calligraphy-font/StylishCalligraphyDemo-XPZZ.ttf);
+ }
+ 
+ @font-face {
+    font-family: Aktifo;
+    src: url(../fonts/font/Aktifo-A-Black.ttf);
+ }
+ 
+ .bg-about {
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+ 
+ }
+ 
+ .logo {
+    position: absolute;
+    top: 10px;
+    left: 2%;
+ }
+ 
+ .navbar-about {
+    position: relative;
+    left: 22%;
+    top: 25px;
+    width: 700px;
+    overflow: auto;
+    padding-top: 20px;
+ }
+ 
+ .navbar-about a {
+    font-family: aceh;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    padding: 0px 0px 0px 30px;
+    text-align: center;
+    font-weight: 1800px;
+
+ }
+ 
+ .navbar-about a:hover {
+    color: #ffa300;
+    text-decoration: underline;
+ }
+ 
+ .navbar-about span {
+    color: #ffa300;
+    font-size: 35px;
+ }
+ 
+ .social-about {
+    position: relative;
+    left: 86%;
+    top: 3px;
+    width: 170px;
+}
+
+.social-about i {
+    padding: 0 15px;
+    transition: 0.3s;
+}
+
+.social-facebook i {
+    color: #1877f2;
+}
+
+.social-twitter i {
+    color: #1da1f2;
+}
+
+.social-insta i {
+    color: rgb(225, 48, 108);
+}
+
+.social-about i:hover {
+    color: #ffa300;
+}
+ 
+.banner-about {
+    background: url(assets/images/SVG/12.jpg);
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ .inner-bg-about {
+    background: rgba(0, 0, 0, 0.289);
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ .banner-about h1 {
+    font-family: thisiswho;
+    font-size: 40px;
+    padding-top: 90px;
+    text-align: center;
+    color: white;
+ }
+
+ /* our services*/
+  .about-banner {
+    background: url(assets/images/SVG/13.jpg)no-repeat;
+    height: 600px;
+    padding: 0 70px;
+    background-size: contain;
+    background-position: center;
+ 
+  }
+
+  .row {
+    display: flex;
+  
+  }
+
+  .col {
+    flex: 50%;
+    background-color:#f9f4f0;
+  }
+  
+  .text-part {
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-top: 40px;
+   
+  }
+  
+  .text-part p {
+    width: 400px;
+    text-align: justify;
+    margin-top: 20px;
+    font-family: aceh;
+    color:#000000;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#f9f4f0;
+  }
+  
+  .text-part span {
+    font-family: caligraphy;
+    font-size: 30px;
+    color: #FFA300;
+    letter-spacing: 2px;
+  }
+  
+  .text-part h2 {
+    font-family: thisiswho;
+    font-size: 33px;
+  }
+  
+  
+ /* footer */
+ .footer-heading{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 50px;
+  }
+  
+  .footer-heading h2{
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .footer-heading p{
+    color: #3d3d3d;
+  }
+  .subscribe{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+  .subscribe input{
+    border: none;
+    padding: 20px 30px;
+    box-shadow: 2px 2px 20px rgba(210, 208, 208, 0.384);
+    border-radius: 5px;
+    width: 550px;
+  }
+
+  .subscribe input:focus{
+  outline: none;
+  box-shadow: 25px;
+}
+  
+  .subscribe-btn{
+    background-color: #FFA300;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 30px;
+    margin-top: 5px;
+    border-radius: 8px;
+    transition: 0.3s;
+    outline: none;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: #ffa200b2;
+  }
+  
+  .footer-container{
+    max-width: 1170px;
+    margin:auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  .footer{
+      padding-top: 70px;
+  }
+  
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+  }
+  
+   h4{
+    font-size: 18px;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 550;
+    position: relative;
+  }
+  
+  .footer-col h4::before{ 
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #FFA300;
+    height: 2px;
+    width: 50px;
+  }
+  
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-col ul li a:hover{
+    color: #000000;
+    padding-left: 8px;
+  }
+  
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+  }
+  
+  .social-icon.facebook {
+    background-color: #1877f2; 
+  }
+  
+  .social-icon.twitter {
+    background-color: #1da1f2; 
+  }
+  
+  .social-icon.instagram {
+    background-color: rgb(225, 48, 108); 
+  }
+  
+  .social-icon.linkedin {
+    background-color:black; 
+  }
+  
+  .footer-col .social-links a:hover{
+    color: black;
+    background-color: rgba(255, 183, 1, 0.494)
+  }
+
+  .logout-btn {
+    background-color: #FFA300;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 5px;
+    border-radius: 8px;
+    transition: 0.3s;
+    margin-left: 85%;
+  }
+  
+  .logout-btn:hover {
+    background-color: #ffa200b2;
+  }

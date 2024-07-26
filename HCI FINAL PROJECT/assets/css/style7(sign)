@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+ }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top:0px;
+    margin-left:30px;
+    margin-right:80px;
+    margin-bottom:500px;
+    background-color:rgb(250, 250, 250); /* Light blue color for the entire page */
+  }
+  
+  
+  
+  .upper-logo {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    /* Add your upper logo image */
+    background: url('leaves.png') no-repeat;
+    width: 200px;
+    height: 200px;
+  }
+  
+ 
+  .container {
+    position: relative;
+    display: flex;
+    min-height: 100vh; /* Use min-height to cover the entire viewport */
+  }
+  
+  .lower-logo {
+    position: absolute;
+    bottom: -600px; /* Positioned at the bottom */
+    left: 0; /* Positioned at the left */
+    /* Add your lower logo image */
+    background: url('Leaves.png') no-repeat;
+    
+    width: 200px;
+    height: 200px;
+  }
+  
+  .signup {
+    text-align: center;
+    color: brown;
+  }
+  
+  .signup1 {
+    text-align: center;
+    margin-top: -30px;
+  font-family: 'Freestyle Script', cursive; /* Change the font-family */
+  font-size: 24px; /* Adjust the font size */
+    color: rgb(138, 9, 9);
+  }
+  .container {
+    position: relative;
+    display: flex;
+    height: 100vh;
+  }
+  
+  .image {
+    flex: 1;
+    background: url('11.jpg') no-repeat center center;
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-bottom: 100px;
+    margin-top: 30px; /* Adjust this value to move the image up or down */
+    height: 170%;
+    width: 1000%;
+  }
+  
+  .form {
+    flex: 1;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #c2e6f4;
+    position: relative;
+    margin-right: -10px;
+    height: 170%; /* Fill the container's height */
+  width: 50%; 
+    margin-bottom:30px;
+    margin-top:30px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #cec2c2;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  /* Adjusted styles for input containers */
+  .oval-container {
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .oval-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  
+  
+  /* Additional styles */
+  .signup-button,
+  .social-button,
+  button.login,
+  .small-button {
+    width: 20%;
+    padding: 10px;
+    background-color: #edc214;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 15px;
+  }
+  
+  .signup-button {
+    border-bottom: 2px solid black; /* Added a bottom border for the black line */
+    margin-left: 8.75cm; /* Move the button 1cm to the right */
+  }
+  .login {
+    position: absolute;
+    right: 0;
+    margin-right: 30px; /* Adjust this value for the exact positioning */
+  }
+  
+  .signup-button:hover,
+  .social-button:hover,
+  button.login:hover,
+  .small-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .small-button {
+    font-size: 14px;
+    width: 20%;
+    height: 40px;
+    
+    /* Move the button 2 cm to the left */
+  }
+  
+  /* Styles for social buttons */
+  .social-button {
+    width: 270px;
+    height: 35px;
+    background-color: #e6e6e7;
+    margin-right: 0.5cm; /* Move "Signup with Google" 0.5 cm to the right */
+    margin-left: calc(50% - 4cm); /* Move "Signup with Facebook" 1 cm to the left */
+    margin-bottom: 5px; /* Increased margin to create space below */
+    margin-top: 0.5cm; /* Move "Signup with Google" 0.5 cm up */
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px; /* Adjust padding for icon spacing */
+    font-size: 14px;
+    color: #141313;
+  }
+  
+  /* Facebook button */
+  .social-button.facebook {
+    background-image: url('d.png'); /* Replace with your Facebook logo */
+    background-size: 20px 20px; /* Adjust the size of the Facebook logo */
+    background-repeat: no-repeat;
+    background-position: 5px 50%; /* Adjust logo position */
+  }
+  
+  /* Google button */
+  .social-button.google {
+    background-image: url('th.png'); /* Replace with your Google logo */
+    background-size: 20px 20px; /* Adjust the size of the Google logo */
+    background-repeat: no-repeat;
+    background-position: 5px 50%; /* Adjust logo position */
+  }
+  
+  .social-button:hover {
+    background-color: #4267b2; /* Hover color for Facebook */
+  }
+  
+  .social-button.google:hover {
+    background-color: #db4437; /* Hover color for Google */
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Ensuring the black line is visible above the "Signup with Facebook" button */
+  hr {
+    margin-top: 15mm; /* Set the distance of 0.5 cm or 5mm above the button */
+    margin-bottom: 20px;
+    border: none;
+    border-top: 2px solid black; /* Ensuring the black line is visible */
+  }
